@@ -1,0 +1,48 @@
+body {
+    padding: 5px;
+}
+ul {
+    list-style: none;
+    text-align: left;
+    margin-left: 260px;
+    margin-top: -375px;
+}
+ul li {
+    padding-bottom: 20px;
+}
+
+p {
+    margin-top: 230px;
+    font-size: 1rem;
+}
+a {
+    color: #2DC3F9;
+    font-size: 1.3rem;
+    padding: 5px;
+}
+a:hover {
+    color: #2DC3F9;
+}
+.hero {
+    background-color: white;
+    color: #2DC3F9;
+}
+.villain {
+    background-color: black;
+    color: #2DC3F9; 
+}
+.hero .description {
+    color: black;
+    /* text-shadow: 2px 2px 20px black; */
+}
+.villain .description {
+    color: whitesmoke;
+    /* text-shadow: 2px 2px 10px black; */
+}
+.description span {
+    color: #2DC3F9;
+}
+#description {
+    margin-top: -20px;
+}
+    

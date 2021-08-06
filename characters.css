@@ -1,0 +1,124 @@
+html {
+    height: 100%;
+}
+body {
+    background-color: #DB3E4A;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+p {
+    width: auto;
+    color: #D0D1D5;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.heroeshead {
+    background-color: whitesmoke;
+    color: #2DC3F9;
+}
+.heroesbody {
+    background-color: #2DC3F9;
+    color: whitesmoke;
+}
+.villainshead {
+    background-color: black;
+    color: #2DC3F9;
+}
+.villainsbody { 
+    background-color: #2DC3F9;
+    color: black;
+}
+.dropbtn {
+    background-color: #DB3E4A;
+    color: #2DC3F9;
+    padding: 4px;
+    font-size: 16px;
+    border: none;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin-top: 15px;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #DB3E4A;
+    min-width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+.dropdown-content a {
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+.dropdown-content a:hover { 
+    background-color: #DB3E4A;
+    color: whitesmoke;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #DB3E4A;
+    color: #2DC3F9;
+}
+.nav {
+    padding: 5px;
+    color: #2DC3F9;
+    font-size: 1.3rem;
+}
+.nav:hover {
+    color: #D0D1D5;
+    background-color: #DB3E4A;
+}
+
+#flexbox {
+    display: flex;
+    width: 95%;
+    height: 100%;
+    justify-content: space-evenly;
+}
+/* {
+    box-sizing: border-box;
+}
+
+/* Style the search field */
+/* form.example input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 80%;
+    background: #f1f1f1; */
+/* } */
+
+/* Style the submit button */
+/* form.example button {
+    float: left;
+    width: 20%;
+    padding: 10px;
+    background: #2196F3;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border-left: none;
+    /* Prevent double borders */
+    /* cursor: pointer; */
+/* } */ 
+
+/* form.example button:hover { */
+    /* background: #0b7dda; */
+/* } */
+
+/* Clear floats */
+/* form.example::after { */
+    /* content: "";
+    clear: both;
+    display: table;
+} */ 
